@@ -18,7 +18,7 @@ body{
 }
 
 #logo {
-height:1vh;
+height:4vh;
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   margin:2%;
   padding:.05%;
@@ -368,7 +368,7 @@ footer{
   font-family: Merriweather;
   text-align:center;
   padding:1%;
-  font-size:4vh;
+  font-size:1vh;
 }
 
 
