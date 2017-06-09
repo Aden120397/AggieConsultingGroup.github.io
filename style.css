@@ -14,7 +14,6 @@ body{
   padding:0;
   overflow-x:hidden;
   height:100%;
-
 }
 
 
@@ -34,7 +33,6 @@ body{
 
 .aboutFirm{
   background-color:white;
-
 }
 
 .headText{
@@ -43,7 +41,6 @@ body{
   font-family: 'Playfair Display', serif;
   font-size:5.5vh;
   margin: 20% 10%;
-
 }
 
 .head:before {
@@ -90,7 +87,6 @@ body{
   font-size: 3.5vh;
   color: rgba(68, 68, 68, 0.9);
   font-family: 'Playfair Display', serif;
-
 }
 
 .image-1 {
@@ -366,9 +362,8 @@ footer{
 }
 
 #logo {
-
 box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin:2%;
-  padding:.05%;
+ 
+  
 }
 
