@@ -17,12 +17,6 @@ body{
 
 }
 
-#logo {
-height:4vh;
-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  margin:2%;
-  padding:.05%;
-}
 
 .head{
   height:100%;
@@ -371,4 +365,10 @@ footer{
   font-size:1vh;
 }
 
+#logo {
+height:8vh;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin:2%;
+  padding:.05%;
+}
 
