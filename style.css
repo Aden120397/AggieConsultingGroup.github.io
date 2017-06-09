@@ -18,7 +18,7 @@ body{
 
 
 .head{
-  height:100%;
+ 
   width: 100%;
   z-index:-10;
   background-image: url('https://static.pexels.com/photos/33959/pexels-photo.jpg');
@@ -26,7 +26,7 @@ body{
   background-position: center center;
   top:0;
   bottom:0;
-  height:80vh;
+  height:100vh;
   z-index:-10;
   position:relative;
 }
