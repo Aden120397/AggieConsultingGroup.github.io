@@ -328,19 +328,19 @@ p:last-child {
   color: #fff;
 }
 [data-type="first"] .content__left {
-  background-image: url("https://static.pexels.com/photos/30360/pexels-photo-30360.jpg");
+  background-image: url("https://static.pexels.com/photos/198119/pexels-photo-198119.jpeg");
 }
 .spinner--right [data-type="first"] .content__left {
   background-image: none;
 }
 [data-type="second"] .content__left {
-  background-image: url("https://static.pexels.com/photos/4097/city-cars-traffic-lights.jpeg");
+  background-image: url("https://static.pexels.com/photos/313782/pexels-photo-313782.jpeg");
 }
 .spinner--right [data-type="second"] .content__left {
   background-image: none;
 }
 [data-type="third"] .content__left {
-  background-image: url("https://static.pexels.com/photos/6579/pexels-photo.jpeg");
+  background-image: url("https://static.pexels.com/photos/50631/pexels-photo-50631.jpeg");
 }
 .spinner--right [data-type="third"] .content__left {
   background-image: none;
@@ -401,6 +401,7 @@ footer{
 .hidden{
  opacity:0; 
 }
+
 
 
 
