@@ -41,6 +41,7 @@ body{
   font-family: 'Playfair Display', serif;
   font-size:5.5vh;
   margin: 20% 10%;
+   -webkit-animation-duration:2s;
 }
 
 .head:before {
