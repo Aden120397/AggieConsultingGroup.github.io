@@ -42,6 +42,7 @@ body{
   font-size:5.5vh;
   margin: 20% 10%;
    -webkit-animation-duration:2s;
+   -webkit-delay-animation: 2s;
 }
 
 .head:before {
