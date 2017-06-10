@@ -44,7 +44,7 @@ body{
   font-size:5.5vh;
   margin: 20% 10%;
    -webkit-animation-duration:1s;
-   -webkit-animation-delay: 3s;
+   -webkit-animation-delay: 2s;
 }
 
 .head:before {
@@ -406,7 +406,7 @@ footer{
 .logo{
 margin-top:-229px;
 margin-bottom:-325px;
-  margin-right:-60px;
+  margin-right:-150px;
 }
 
 
