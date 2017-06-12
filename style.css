@@ -29,7 +29,7 @@ body{
   height:100vh;
   z-index:-10;
   position:relative;
-  -webkit-animation-duration:4s;
+  -webkit-animation-duration:3s;
    -webkit-animation-delay: 1s;
 }
 
@@ -310,7 +310,7 @@ body {
 .content__right .content__main .boxSub :last-child {
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-size: 0.85em;
+  font-size: 0.90em;
 }
 
 p:last-child {
