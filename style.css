@@ -310,7 +310,7 @@ body {
 .content__right .content__main .boxSub :last-child {
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  font-size: 0.90em;
+  font-size: 1em;
 }
 
 p:last-child {
