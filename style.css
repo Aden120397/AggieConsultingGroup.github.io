@@ -45,7 +45,9 @@ body{
  opacity:0;
 }
 
-
+.navbar-brand{
+height:60px;
+}
 
 .nav-link{
   font-family: 'Amiri', serif;
