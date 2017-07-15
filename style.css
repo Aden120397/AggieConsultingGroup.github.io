@@ -52,8 +52,8 @@ body{
  opacity:0;
 }
 
-.navbar{
-height:40px;
+.navbar-brand{
+height:30px;
 }
 
 .nav-link{
