@@ -28,7 +28,10 @@ body{
 
 }
 
-.logo{z-index:200;}
+.logo{
+  z-index:200;
+  height:30px;
+}
 
 
 #loader-animation{
