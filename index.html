@@ -1,211 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <title> Aggie Consulting Group </title>
-	  <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-   
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300:italic" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>ACG Tester</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	  
-  </head>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <script src="https://use.fontawesome.com/fd4d82f497.js"></script>
+</head>
 
-  <body>
+<body>
 
-	<div id="load_screen">
-  <div class="loading"> <img src ="image.gif" id="loader-animation"></div>
+<div id="load_screen">
+<div class="loading"> <img src ="image.gif" id="loader-animation"></div>
 </div>
-     <nav class="navbar navbar-toggleable-md  navbar-static-top navbar-light bg-faded">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <a class="navbar-brand" href="#landing"> <img class="logo" src="logo.png"></a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link active" class="menTop" href="#"> <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#about">About</a>
-      <a class="nav-item nav-link" href="#service">Services</a>
-      <a class="nav-item nav-link disabled" href="#">Meet The Team</a>
+  <nav class="navbar navbar-toggleable-md  navbar-static-top navbar-light bg-faded">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+    <a class="navbar-brand" href="#landing"> <img class="logo" src="logo.png"></a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" class="menTop" href="#"> <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">About</a>
+        <a class="nav-item nav-link" href="#service">Our Edge</a>
+        <a class="nav-item nav-link" href="#">Services</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center  animated fadeIn">
+    <h1 class="landingSplashText  animated fadeIn"> Consulting at the speed of you...</h1>
+  </div>
+
+  <!--We Are ACG Section-->
+  <div class="container-fluid text-center center-block">
+    <div class="weAreSpacer"></div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="center-block">
+          <span class="aStyling textSnip1  ">A</span>
+        </div>
+      </div>
+      <div class="col-md-7 ">
+        <h3 class="weAreSub"> We are A.C.G.</h3>
+        <hr class="aboutBreak">
+        <p class="aboutText">The Aggie Consulting Group is a non-profit, student-run organization at Texas A&M University that strives to provide undergraduate students the opportunity to solve real-world business problems for clients. We strive to provide our clients with
+          high-quality deliverables, new perspective, and strategic recommendations while granting our consultants the valuable leadership and professional development experiences that accompany professional-level interactions with companies. </p>
+        <div class="contSpacer"></div>
+      </div>
+
+      <div class="col-md-1"></div>
     </div>
   </div>
-</nav>
-
-    <div class="head animated fadeIn" id="landing">
-      <div class="headerOverlay"> </div>
-      <div class="headText animated fadeIn">Consulting at the speed of you...</div>
-    </div>
-    <div class="aboutFirm" id="about">
-      <div class="grid1">
-        <header class="masthead">
-          <h1 class="weAreHead animated fadeIn"> We are A.C.G.</h1>
-          <h2 class="weAreSub"> The Aggie Consulting Group is a non-profit, student-run organization that strives to provide undergraduate students the opportunity to solve real-world business problems for clients. We strive to provide our clients with high-quality deliverables, new perspective, and strategic recommendations while granting our consultants the valuable leadership and professional development experiences that accompany professional-level interactions with companies.
-
-          </h2>
-        </header>
-        <div class="image-1 "></div>
-
+  </div>
+  <!--Divider 1-->
+  <div class="scrollingDivider"></div>
+  <!--ACG Values Section-->
+  <div class="container-fluid text-center center-block">
+    <div class="contSpacer"></div>
+    <div class="row ">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <h1 class="valuesHeader text-center  "> The A.C.G. Edge:</h1>
       </div>
+      <div class="col-md-2"></div>
     </div>
-
-
-    <div class="carousel" id="service">
-      <div class="carousel__control">
+    <div class="row textRow">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h3 class="valuesSub">We Commit To...</h3>
       </div>
-      <div class="carousel__stage">
-        <div class="spinner spinner--left">
-          <div class="spinner__face js-active" data-bg="#27323c">
-            <div class="content" data-type="first">
-              <div class="content__left">
-                <h1 class="blockHeads">SERVICES:<br><span>WHAT WE DO:</span></h1>
-              </div>
-              <div class="content__right">
-                <div class="content__main">
-                  <p class="boxSub">ACG provides a wide array of consulting services oriented towards enabling clients to achieve sustainable advantage. By doing this, our consultants are able to leverage their diverse skillsets, perspectives, and resources to add value.
-                    to our client organizations... </p>
-                  <p class="boxSub"></p>
-                </div>
-                <h3 class="content__index">01</h3>
-              </div>
-            </div>
+      <div class="col-md-3"></div>
+    </div>
+    <hr class="edgeHeadingBreak">
+    <div class="edgeHeadingSpacer"></div>
+    <div class="row">
+
+      <div class="col-md-4 furthestLeft "><i class="fa fa fa-cogs  fa-2x pull-left" aria-hidden="true"></i><span class="valueText pull-left">Reflection:</span>
+        <br><br>
+        <hr class="valueDivLine">
+        <br>
+        <br>
+
+        <p class="valueDescription"><span class="caps">T</span>o overcome the ever-changing demands of business and excel in today’s ultra competitive market, your organization needs an adaptive team. Here at ACG, we strive to be just that; our unwavering dedication to constant
+          learning, reflection, and growth ensures that we are consistently ahead of the competition.
+
+        </p>
+      </div>
+      <div class="col-md-4"><i class="fa fa-user-o fa-2x pull-left" aria-hidden="true"></i><span class="valueText pull-left">Connection:</span>
+        <br><br>
+        <hr class="valueDivLine">
+        <br><br>
+        <p class="valueDescription"><span class="caps">O</span>ur situation in America’s 3rd largest college campus allows us to offer clients unparalleled access to a millennial audience. We understand what millennials value and how they interact with products. By sharing this
+          insight with our clients, we help them better engage with a critical demographic in both consumer and talent markets.
+
+        </p>
+      </div>
+
+      <div class="col-md-4"><i class="fa fa-diamond fa-2x pull-left" aria-hidden="true"></i> <span class="valueText pull-left"> Discovery: </span>
+        <br><br>
+        <hr class="valueDivLine">
+        <br><br>
+        <p class="valueDescription"><span class="caps">O</span>ur team’s diverse makeup enables us to apply unique perspectives to casework. Our interdisciplinary approach to consulting allows us to unlock new insight that others miss and culminates in innovative and actionable
+          strategic recommendations that add immediate value to our clients’ organizations.
+
+        </p>
+      </div>
+
+    </div>
+    <div class="contSpacer"></div>
+  </div>
+
+  <!--Divider 2-->
+
+  <div class="scrollingDivider"></div>
+
+  <!-- Our Services Section-->
+  <div class="container-fluid text-center center-block ">
+
+    <div class="contSpacer"></div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <h1 class="servicesTitle">Our Services</h1></div>
+      <div class="col-md-3"></div>
+      <div>
+        <div class="row">
+          <p class="serviceSynopsis">ACG provides a wide array of consulting services oriented towards enabling clients to achieve a sustainable competitive advantage. To do this, our consultants leverage their diverse skillsets, perspectives, and resources to deliver actionable
+            strategic recommendations to our clients.</p>
+
+        </div>
+        <div class="servicesSpacer"></div>
+        <div class="row textRow">
+          <div class="col-md-4">
+            <h2 class="servicesHeader ">Modeling</h2>
+            <i class="fa fa-line-chart serviceIcon fa-2x" aria-hidden="true"></i>
+            <hr class="serviceDividers">
+            <p class=" ServicesDescription"><span class="caps">A</span> t ACG, every decision our team makes is backed by rigorous research and analysis . This ensures that our teams as well as our clients have a deep understanding of their operations and competition andenables our
+              team to make informed recommendations that enable our clients to exceed their goals. We provide several services towards this end:</p><br>
+            <ul class="serviceList">
+              <li><span class="list">Market Segmentation</span></li>
+              <li><span class="list">Price Modeling</span></li>
+              <li><span class="list">Risk Analysis</span></li>
+              <li><span class="list">Financial Data Modeling</span></li>
+              <li><span class="list">Cost Structure Analysis</span></li>
+
+              </ol>
           </div>
-          <div class="spinner__face" data-bg="#19304a">
-            <div class="content" data-type="second">
-              <div class="content__left">
-                <h1 class="blockHeads">RESEARCH: <br><span></span></h1>
-              </div>
-              <div class="content__right">
-                <div class="content__main">
-                  <p class="boxSub">Our team takes a client-first approach to consulting. We believe that a thorough understanding of each client’s unique set of business challenges and their significance within the context of their competitive landscape is the first step
-                    towards a successful case. We provide the following suite of services within this domain that empowers clients to derive opportunities from their challenges: <br>
-                  <ol>
-                    <li>Market Research</li>
-                    <li>Trend and Growth Analysis</li>
-                    <li>Marketing Opportunity</li>
-                    <li>Entry strategy Development</li>
-                    <li>Growth Strategy</li>
-                  </ol>
-                  </p>
-                <p class="boxSub"></p>
-              </div>
-              <h3 class="content__index">02</h3>
-            </div>
+          <div class="col-md-4 ">
+            <h2 class="servicesHeader">Research</h2>
+            <i class="fa fa-search serviceIcon fa-2x" aria-hidden="true"></i>
+            <hr class="serviceDividers">
+            <p class="ServicesDescription"><span class="caps">O</span> ur team takes a client-first approach to consulting. We believe that a thorough understanding of each client’s unique set of business challenges and their significance within the context of their competitive landscape
+              is the first step towards a successful case. We provide the following suite of services within this domain that empowers clients to derive opportunities from their challenges: </p><br>
+            <ul class="serviceList">
+              <li><span class="list">Market Research</span></li>
+              <li><span class="list">Trend and Growth Analysis</span></li>
+              <li><span class="list">Consumer Research</span></li>
+              <li><span class="list">Entry strategy Development</span></li>
+              <li><span class="list">Growth Strategy</span></li>
+              </ol>
+          </div>
+          <div class="col-md-4">
+            <h2 class="servicesHeader">Marketing</h2>
+            <i class="fa fa-bullhorn serviceIcon iconA fa-2x" aria-hidden="true"></i>
+            <hr class="serviceDividers">
+            <p class="ServicesDescription "> <span class="caps">W</span> e believe that an organization’s core value lies within the way its clientele perceives it. Thus, our teams strive to accurately gauge the reputation of a brand and makes recommendations driven by consumer feedback
+              that allow an organization to tailor its image to effectively target and appeal to its target audience. We offer the following services to achieve this:</p><br>
+            <ul class="serviceList">
+              <li><span class="list">Brand Positioning Strategy</span></li>
+              <li><span class="list">Product Launch Plans</span></li>
+              <li><span class="list">Pricing Strategy</span></li>
+              <li><span class="list">Customer Targeting</span></li>
+              </ol>
           </div>
         </div>
-        <div class="spinner__face" data-bg="#2b2533">
-          <div class="content" data-type="third">
-            <div class="content__left">
-              <h1 class="blockHeads">DATA MODELING: <br><span></span></h1>
-            </div>
-            <div class="content__right">
-              <div class="content__main">
-                <p class="boxSub">Every decision that our teams make regarding case-work is made only after rigorous research and analysis are conducted. This ensures that our teams as well as our clients have a deep quantitative understanding of their operations and
-                  make enables our team to make informed recommendations that enable our clients to exceed their goals. We provide several services towards this end:  </p>
-                <br>
-                <ol>
-                  <li>Market Segmentation </li>
-                  <li>Price Modeling</li>
-                  <li>Financial Data</li>
-                  <li>Cost Structure Analysis</li>
-                </ol>
-
-                <p class="boxSub"></p>
-              </div>
-              <h3 class="content__index">03</h3>
-            </div>
-          </div>
-        </div>
-        <div class="spinner__face" data-bg="#312f2d">
-          <div class="content" data-type="fourth">
-            <div class="content__left">
-              <h1 class="blockHeads"> MARKETING:<br><span></span></h1>
-            </div>
-            <div class="content__right">
-              <div class="content__main">
-                <p class="boxSub">At ACG, we believe that an organization’s core value lies within the way its clientele perceives it. Thus, our teams strive to accurately gauge the reputation of a brand and makes recommendations driven by consumer feedback that allow
-                  an organization to tailor its image to effectively target and appeal to its target audience. We offer the following services to achieve this: 
-                </p> <br>
-                <ol>
-                  <li>Brand Positioning Strategy
-                  </li>
-                  <li>Product Launch Plans</li>
-                  <li>Brand Analysis</li>
-                  <li>Pricing Strategy</li>
-                  <li>Customer Targeting</li>
-                </ol>
-                <p class="boxSub"></p>
-              </div>
-              <h3 class="content__index">04</h3>
-            </div>
-          </div>
-        </div>
+        <div class="contSpacer"></div>
       </div>
-    </div>
-    </div>
-    	<div class="contactContainer">
-		<div class="contactForm"> 
-				<div class="row"><h2 class="contactSect"> Contact Us:</h2></div>
-			<div class="row">
-				<div class="col-7">
-				
-					
-					<div class="form-group">
-						<label for="name">Name:</label>
-						<input type="email" class="form-control" id="emailContact"
-						<small id="emailHelp" class="form-text text-muted" aria-describedby="sizing-addon3">
-					</div>
-					<div class="form-group">
-						<label for="Email1">Email Address:</label>
-						<input type="email" class="form-control"  id="emailContact"
-						<small id="emailHelp" class="form-text text-muted" aria-describedby="sizing-addon3">
-					</div>
-						<div class="form-group">
-    					<label for="exampleTextarea">Your Message:</label>
-    					<textarea class="form-control" id="exampleTextarea"  rows="3" aria-describedby="sizing-addon3"></textarea>
-    					   
-  					</div>
-  					<button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
-  				</div>
-  				
-  				<div class="col-2">
-					<div class="row"><h3 class="infoHeader"><img class="logo1" src="logo.png"></h3></div>
-					<div class="containerDet">
-						<i class="fa fa-envelope-o" aria-hidden="true"> <br></i>
-Email:AggieConsulting@gmail.com<br>
-						<br><i class="fa fa-phone" aria-hidden="true"></i><br>Phone:+1 713-391-6814<br>
-						<br><i class="fa fa-globe" aria-hidden="true"></i><br>
-AggieConsulting.gq<br>
-						
-						</div>
-					</div>
-		</div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.5470911550824!2d-96.3386930489303!3d30.61853559808772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864683f733c00001%3A0x9747b8a4b9c03bc8!2sTexas+A%26M+University!5e0!3m2!1sen!2sus!4v1497292825643" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-				</div>
-			
-			</div>
 
+      <!--Divider3-->
+
+      <div class="scrollingDivider"></div>
+
+      <!--Contact Us Section-->
+      <div class="container">
+        <div class="contSpacer"></div>
+        <div class="row-fluid">
+          <div class="col-md-3></div><div class=" col-md-8 "><h1 class="contactTitle ">Contact Us:</h1></div></div><br>
+<hr class="contactSpacing ">
+  <div class="row ">
+    <div class="col-md-4 ">
+      <h2 class="contactText "><i class="fa fa-phone fa-1x " aria-hidden="true "></i>
+        <h2 class="contactText ">Phone: (713) 391-6814</h2>
+      <h2 class="contactText "><i class="fa fa-envelope fa-1x " aria-hidden="true "></i>
+       <h2 class="contactText ">AggieConsultingGroup@gmail.com</h2>
+      <h2 class="contactText "><i class="fa fa-globe fa-1x " aria-hidden="true "></i>
+        <h2 class="contactText ">AggieConsulting.gq</h2>
+        </div>
+    <div class="col-md-1 "></div>
+    <div class="col-md-7 ">
+
+<form class="form-horizontal " role="form " method="post " action="index.php ">
+	<div class="form-group ">
+		<label for="name " class="col-sm-2 control-label pull-left ">Name</label>
+		<div class="col-sm-10 ">
+			<input type="text " class="form-control " id="name " name="name " placeholder="First & Last Name " value=" ">
+		</div>
+	</div>
+	<div class="form-group ">
+		<label for="email " class="col-sm-2 control-label pull-left ">Email</label>
+		<div class="col-sm-10 ">
+			<input type="email " class="form-control " id="email " name="email " placeholder="example@domain.com " value=" ">
+		</div>
+	</div>
+	<div class="form-group ">
+		<label for="message " class="col-sm-2 control-label pull-left message ">      Message</label>
+		<div class="col-sm-10 ">
+			<textarea class="form-control " rows="4 " name="message "></textarea>
+		</div>
+	</div>	<div class="form-group ">
+		<div class="col-sm-10 ">
+			<input id="submit " name="submit " type="submit " value="Send " class="btn btn-primary pull-left ">
+		</div>
+
+	</div>
+
+	</div>
+	<div class="form-group ">
+		<div class="col-sm-10 col-sm-offset-2 ">
+			<! Will be used to display an alert to the user>
+		</div>
+	</div>
+</form>
+  </div>
 </div>
-  <footer> Copyright &copy 2017 Designed by Aden Muhammad </footer>
-  <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  
+</div>
 
-  <script src="script.js"></script>
+    <div class="container-fluid ">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery.js"></script>
-  
- 
-  </body>
+        <iframe class="map " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3433.5470911550824!2d-96.3386930489303!3d30.61853559808772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864683f733c00001%3A0x9747b8a4b9c03bc8!2sTexas+A%26M+University!5e0!3m2!1sen!2sus!4v1497292825643 "
+          width="100% " height="400px " frameborder="0 " style="border:0 " allowfullscreen></iframe>
+    </div>
+  </div>
+
+<div class="scrollingFooter ">Copyright &copy 2017 Aden Muhammad</div>
+
+<script src="https://use.fontawesome.com/fd4d82f497.js "></script>
+<script src="https://use.fontawesome.com/fd4d82f497.js "></script>
+  <!-- jQuery (necessary for Bootstrap 's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js "></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js " integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n " crossorigin="anonymous "></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js " integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb " crossorigin="anonymous "></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js " integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn " crossorigin="anonymous "></script>
+ <script src="script.js"></script>
+</body>
 
 </html>
-	
