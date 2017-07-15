@@ -28,6 +28,8 @@ body{
 
 }
 
+.logo{z-index:200;}
+
 
 #loader-animation{
   position: fixed; /* or absolute */
