@@ -29,8 +29,9 @@ body{
 }
 
 .logo{
-  z-index:200;
+  z-index:300000;
   margin-top:-10px;
+  height:60px;
 }
 
 
