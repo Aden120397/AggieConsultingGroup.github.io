@@ -94,7 +94,7 @@ z-index: 5;
 font-size: 90px;
 font-weight: lighter;
 font-family: 'Amiri', serif;
-padding-top:10vh;
+padding-top:0;
 -webkit-animation-duration:3s;
 -webkit-animation-delay: 2s;
 }
