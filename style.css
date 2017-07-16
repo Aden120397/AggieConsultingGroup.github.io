@@ -400,3 +400,7 @@ background-image: url("https://static.pexels.com/photos/358502/pexels-photo-3585
   #edgeAnchor   {margin-top:0px;}
   
 }
+
+@media only screen and (min-width: 775px) {
+  #edgeAnchor   {margin-top:-150px;}
+}
