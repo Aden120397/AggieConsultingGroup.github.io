@@ -68,7 +68,8 @@ height:30px;
 .jumbotron {
     /* The image used */
     background-color: lightblue;
- background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
+  background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
+
 
     /* Puts image in the back */
     z-index: -1000;
@@ -90,11 +91,11 @@ height:30px;
 
 .landingSplashText{
 color: white;
-z-index: 50;
+z-index: 5;
 font-size: 90px;
 font-weight: lighter;
 font-family: 'Amiri', serif;
-margin-top:0px;
+padding-top:20vh;
 -webkit-animation-duration:3s;
 -webkit-animation-delay: 2s;
 }
@@ -109,7 +110,7 @@ margin-top:0px;
   color: red;
   -webkit-text-fill-color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),
-              url(https://images.pexels.com/photos/161963/chicago-illinois-skyline-skyscrapers-161963.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb) repeat;
+              url('https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w') repeat;
   background: -o-linear-gradient(transparent, transparent);
   -webkit-background-clip: text;
   background-attachment: fixed;
@@ -146,7 +147,7 @@ margin-top:0px;
 .scrollingDivider{
   /* The image used */
 
-background-image: url("https://static.pexels.com/photos/358502/pexels-photo-358502.jpeg");
+background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
   padding: 0;
   margin: 0;
 
@@ -173,6 +174,7 @@ background-image: url("https://static.pexels.com/photos/358502/pexels-photo-3585
   font-weight: lighter;
   color: rgb(80,0,0);
     font-family: 'Amiri', serif;
+  overflow-y:off;
 }
 
 /*==== Styling for ACG Edge Section =======*/
@@ -239,9 +241,6 @@ i{
 
 }
 
-.valueText:hover{
-  font-size:32px;
-}
 
 
 .servicesTitle {
@@ -360,7 +359,7 @@ font-family: 'Amiri', serif;
 .scrollingFooter{
   /* The image used */
 
-background-image: url("https://static.pexels.com/photos/358502/pexels-photo-358502.jpeg");
+background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
   padding: 0;
   margin: 0;
 
@@ -403,3 +402,4 @@ background-image: url("https://static.pexels.com/photos/358502/pexels-photo-3585
 @media only screen and (min-width: 775px) {
   #edgeAnchor   {margin-top:-150px;}
 }
+
