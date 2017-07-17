@@ -102,13 +102,7 @@ padding-top:20vh;
 -webkit-animation-delay: 2s;
 }
 
-@media only screen and (max-width: 775px) {
-  .landingSplashText{
-    font-size:50px;
-    padding-left:0;
-    margin-left:0;
-  }
-}
+
 
 .contSpacer{
   height: 10vh;
@@ -306,18 +300,7 @@ li {
   padding:10px;
 }
 
-@media only screen and (max-width: 775px) {
-    .ServicesDescription  {
-        text-align: center;
-        padding-left: 20px;
-    }
-    li{
-      margin-left: 140px;
-      margin-bottom: 50px;
-      margin-top: -20px;
-      line-height: .15em;
-    }
-}
+
 
 
 .servicesSpacer{
@@ -411,4 +394,48 @@ background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d5
 @media only screen and (min-width: 775px) {
   #edgeAnchor   {margin-top:-150px;}
 }
-
+@media only screen and (max-width: 775px) {
+  .landingSplashText {
+    font-size:50px;
+    padding-left:0;
+    margin-left:0;
+  }
+  
+  .servicesTitle{
+    font-size:3.5em;
+    text-align:center;
+    
+  }
+  
+  .serviceSynopsis{
+    font-size:1.25em;
+  }
+  
+  .ServicesDescription{
+    line-height:1.5em;
+    text-align:left;
+    padding-right:0;
+    margin-right:0;
+  }
+  
+  .servicesHeader{
+    margin-left:5px;
+    text-align:left;
+  }
+  
+  .serviceIcon{
+    margin-left:-75vw;
+  }
+  .serviceDividers{
+    margin-left:10px;
+    width:210px;
+  }
+  
+  .serviceList{
+    margin-left:0px;
+    padding-left:0;
+    text-align:left;
+    font-size:1.09em;
+    padding-bottom:10px;
+  }
+}
