@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Amiri|Raleway');
+
 html{
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body{
@@ -9,6 +9,10 @@ body{
   padding: 0;
 }
 
+a{
+  margin:0, 20px; 
+
+}
 #load_screen{
   background:white;
   color:black;
@@ -57,9 +61,9 @@ height:5vh;
 }
 
 .nav-link{
-  font-family: 'Amiri', serif;
   color: black;
-  font-size:20px;
+  font-size:1em;
+  font-weight:lighter;
 }
 
 .landing{
@@ -95,7 +99,6 @@ color: white;
 z-index: 5;
 font-size: 90px;
 font-weight: lighter;
-font-family: 'Amiri', serif;
 padding-top:20vh;
 -webkit-animation-duration:3s;
 -webkit-animation-delay: 2s;
@@ -136,14 +139,14 @@ padding-top:20vh;
 }
 
 .aboutUs{
-  font-family: 'Amiri', serif;
+ font-weight:lighter;
 }
 
 .aboutText{
   font-size: 20px;
   font-weight: 100;
   overflow:hidden;
-  font-family: 'Amiri', serif;
+ 
 }
 
 .scrollingDivider{
@@ -175,24 +178,37 @@ background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d5
   font-size: 60px;
   font-weight: lighter;
   color: rgb(80,0,0);
-    font-family: 'Amiri', serif;
   overflow-y:off;
 }
 
 /*==== Styling for ACG Edge Section =======*/
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing  {
+  font-weight: normal;
+}
+.marketing .col-lg-4 .valueDescription {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++*/
+
+
 
 .valuesHeader{
   font-size: 90px;
   font-weight:lighter;
-  font-family: 'Amiri', serif;
   text-align: center;
 }
 
 .valuesSub{
   font-size:45px;
-  font-weight:lighter;
+  font-weight:200;
   color: rgb(80,0,0);
-font-family: 'Amiri', serif;
+
 }
 
 .edgeHeadingBreak{width:60px;}
@@ -202,26 +218,22 @@ font-family: 'Amiri', serif;
 
   .valueDivLine{
     width: 300px;
-    float: left;
-    margin-left: 15%;
+  
   }
 
   .valueDescription{
     max-width: 90vw;
     font-size:20px;
     line-height:1.5em;
-    font-family: 'Amiri', serif;
-    text-align: left;
+    font-weight: lighter; 
   }
 
 .lastBreak{height: 10px;}
 
 
-
 .caps{
-  font-style: oblique;
+ 
   font-size: 40px;
-  font-family: 'Amiri', serif;
 }
 
 
@@ -232,46 +244,49 @@ font-family: 'Amiri', serif;
 i{
   color:black;
   color: rgb(80,0,0);
-  font-family: 'Amiri', serif;
+ 
 
 }
 
 .valueText{
   font-size:30px;
-  font-family: 'Amiri', serif;
+  font-weight:300; 
 
 
 }
-
 
 
 .servicesTitle {
   text-align:center;
   font-size: 100px;
   font-weight:100;
-    font-family: 'Amiri', serif;
+   
 
 }
 
 .servicesHeader {
   text-align: center;
   font-size: 40px;
-  font-family: 'Amiri', serif;
+  font-weight:200;
 
 
 }
 
 .serviceList {
 
-  font-family: 'Amiri', serif;
+  font-weight:lighter;
   font-size: 20px;
-  line-height: 1.2em;;
+  line-height: 1.2em;
+  text-align: left;
+  display: inline-block;
 }
 
 li {
-    text-indent: -4px;
-    text-align: left;
-    margin-left: 20%;
+   
+  text-align: left;
+ 
+   
+    
 }
 
 .servHr{
@@ -280,23 +295,20 @@ li {
 
 .serviceSynopsis {
   font-size: 24px;
-  font-style: italic;
   margin: 0px 80px;
 
 
     color: rgb(80,0,0);
     font-weight:lighter;
-    font-family: 'Amiri', serif;
-
 }
 
 .ServicesDescription{
   max-width: 90vw;
   font-size:20px;
   line-height:1.5em;
-  font-family: 'Amiri', serif;
-  text-align: left;
+  text-align: center;
   padding:10px;
+  font-weight:lighter;
 }
 
 
@@ -307,12 +319,12 @@ li {
 }
 
 
+
 .contactText{
 text-align:left;
 font-size:20px;
 font-weight: lighter;
 padding: 10px;
-font-family: 'Amiri', serif;
 
 }
 
@@ -320,7 +332,6 @@ font-family: 'Amiri', serif;
 .contactTitle{
     font-size: 60px;
     font-weight:100;
-    font-family: 'Amiri', serif;
 }
 
 .contactText{
@@ -371,9 +382,9 @@ background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d5
 
   color: white;
   text-align: center;
-  font-family: 'Amiri', serif;
-  padding: 5px 0;
-
+font-weight:lighter;
+ padding: 5px 0;
+font-size:.75em;
 }
 
 #aboutAnchor{
@@ -384,51 +395,10 @@ background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d5
   margin-top:-40px;
 }
 
-@media only screen and (max-width: 775px) {
-    #aboutAnchor  {margin-top:0px;}
-  #edgeAnchor   {margin-top:0px;}
-  
+.finSpacer{
+  height:20vh;
+ 
 }
-
-@media only screen and (min-width: 775px) {
-  #edgeAnchor   {margin-top:-150px;}
-}
-@media only screen and (max-width: 775px) {
-  .landingSplashText {
-    font-size:50px;
-    padding-left:0;
-    margin-left:0;
-  }
-  
-  .servicesTitle{
-    font-size:3.5em;
-    text-align:center;
-    
-  }
-  
-  .serviceSynopsis{
-    font-size:1.25em;
-  }
-  
-  .ServicesDescription{
-    line-height:1.5em;
-    text-align:left;
-    padding-right:0;
-    margin-right:0;
-  }
-  
-  .servicesHeader{
-    margin-left:5px;
-    text-align:left;
-  }
-  
-  .serviceIcon{
-    margin-left:-75vw;
-  }
-  .serviceDividers{
-    margin-left:10px;
-    width:210px;
-  }
   
   .serviceList{
     margin-left:0px;
