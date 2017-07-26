@@ -3,6 +3,8 @@ window.addEventListener("load", function() {
   document.body.removeChild(load_screen);
 });
 
+
+
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
@@ -44,3 +46,12 @@ $('a[href*="#"]')
       }
     }
   });
+
+/*Scroll Reveal Controls*/
+
+window.sr=ScrollReveal({reset:true});
+
+window.sr=ScrollReveal();
+sr.reveal("p",{orgin:'bottom'}, {duration:1500});
+
+
