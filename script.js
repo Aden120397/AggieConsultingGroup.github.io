@@ -55,3 +55,4 @@ window.sr=ScrollReveal();
 sr.reveal("p",{orgin:'bottom'}, {duration:1500});
 
 
+
