@@ -1,0 +1,412 @@
+
+html{
+  overflow-x: hidden !important;
+}
+
+body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  margin:0, 20px; 
+
+}
+#load_screen{
+  background:white;
+  color:black;
+  position:fixed;
+  opacity:1;
+  z-index:10;
+  top:0px;
+  width:100vw;
+  height:1600px;
+  text-align:center;
+}
+#load_screen>#loading{
+  color:black;
+  width:120px;
+  height:24px;
+  margin:300px auto;
+
+}
+
+.logo{
+  z-index:300000;
+  margin-top:-35px;
+  height:150px;
+  
+}
+
+
+#loader-animation{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+
+}
+
+
+.visible{
+  opacity:1;
+}
+
+.hidden{
+ opacity:0;
+}
+
+.navbar-brand{
+height:5vh;
+}
+
+.nav-link{
+  color: black;
+  font-size:1em;
+  font-weight:lighter;
+}
+
+.landing{
+  width: 100%;
+  left: 0;
+}
+.jumbotron {
+    /* The image used */
+    background-color: lightblue;
+  background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
+
+
+    /* Puts image in the back */
+    z-index: -1000;
+
+    /* Full height */
+    height: 100vh;
+    width: 100vw;
+  margin-top:2px;
+
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-animation-duration:4s;
+ -webkit-animation-delay: 1s;
+}
+
+
+.landingSplashText{
+color: white;
+z-index: 5;
+font-size: 90px;
+font-weight: lighter;
+padding-top:20vh;
+-webkit-animation-duration:3s;
+-webkit-animation-delay: 2s;
+}
+
+
+
+.contSpacer{
+  height: 10vh;
+}
+
+}
+.textSnip1 {
+  color: red;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(transparent, transparent),
+              url('https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w') repeat;
+  background: -o-linear-gradient(transparent, transparent);
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+}
+
+.aStyling{
+  font-size:350px;
+  font-weight: bold;
+  font-family: 'Amiri', serif;
+  margin-top:0px;
+  background-color: transparent;
+  line-height: .85em;
+
+}
+
+.aboutBreak{
+  width:80px;
+  color:black;
+  height:2px;
+
+}
+
+.aboutUs{
+ font-weight:lighter;
+}
+
+.aboutText{
+  font-size: 20px;
+  font-weight: 100;
+  overflow:hidden;
+ 
+}
+
+.scrollingDivider{
+  /* The image used */
+
+background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
+  padding: 0;
+  margin: 0;
+
+  /* Puts image in the back */
+  z-index: -10;
+
+
+
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Full height */
+  height: 35vh;
+  width: 100vw;
+}
+
+
+
+.weAreSub{
+  font-size: 60px;
+  font-weight: lighter;
+  color: rgb(80,0,0);
+  overflow-y:off;
+}
+
+/*==== Styling for ACG Edge Section =======*/
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing  {
+  font-weight: normal;
+}
+.marketing .col-lg-4 .valueDescription {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++*/
+
+
+
+.valuesHeader{
+  font-size: 90px;
+  font-weight:lighter;
+  text-align: center;
+}
+
+.valuesSub{
+  font-size:45px;
+  font-weight:200;
+  color: rgb(80,0,0);
+
+}
+
+.edgeHeadingBreak{width:60px;}
+
+  .edgeHeadingSpacer{height: 15px; }
+
+
+  .valueDivLine{
+    width: 300px;
+  
+  }
+
+  .valueDescription{
+    max-width: 90vw;
+    font-size:20px;
+    line-height:1.5em;
+    font-weight: lighter; 
+  }
+
+.lastBreak{height: 10px;}
+
+
+.caps{
+ 
+  font-size: 40px;
+}
+
+
+
+
+
+
+i{
+  color:black;
+  color: rgb(80,0,0);
+ 
+
+}
+
+.valueText{
+  font-size:30px;
+  font-weight:300; 
+
+
+}
+
+
+.servicesTitle {
+  text-align:center;
+  font-size: 100px;
+  font-weight:100;
+   
+
+}
+
+.servicesHeader {
+  text-align: center;
+  font-size: 40px;
+  font-weight:200;
+
+
+}
+
+.serviceList {
+
+  font-weight:lighter;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-align: left;
+  display: inline-block;
+}
+
+li {
+   
+  text-align: left;
+  font-weight:lighter;
+ 
+   
+    
+}
+
+.servHr{
+  width: 70px;
+}
+
+.serviceSynopsis {
+  font-size: 24px;
+  margin: 0px 80px;
+
+
+    color: rgb(80,0,0);
+    font-weight:lighter;
+}
+
+.ServicesDescription{
+  max-width: 90vw;
+  font-size:20px;
+  line-height:1.5em;
+  text-align: center;
+  padding:10px;
+  font-weight:lighter;
+}
+
+
+
+
+.servicesSpacer{
+  height:30px;
+}
+
+
+
+.contactText{
+text-align:left;
+font-size:20px;
+font-weight: lighter;
+padding: 10px;
+
+}
+
+
+.contactTitle{
+    font-size: 60px;
+    font-weight:100;
+}
+
+.contactText{
+  text-align:center;
+}
+
+.contactSpacing{
+  width: 60px;
+  margin-bottom: 30px;
+  margin-top:-10px;
+}
+.serviceDividers{
+  width: 70px;
+}
+
+
+.message{
+  padding-left:60px;
+}
+
+.contactDivider{
+  width:60px;
+  margin-top:-20px;
+  margin-bottom:50px;
+}
+
+.scrollingFooter{
+  /* The image used */
+
+background-image: url("https://static1.squarespace.com/static/57672633e6f2e136d51d0a2d/57a4233ff7e0ab397a7a8905/58acd8e6d2b8579c13aa97fb/1487769187313/20160803_Campus_Aerials_3203.jpg?format=2500w");
+  padding: 0;
+  margin: 0;
+
+
+
+
+
+  /* Center and scale the image nicely */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Full height */
+  height: 5vh;
+  width: 100vw;
+  /* Full height */
+
+  color: white;
+  text-align: center;
+font-weight:lighter;
+ padding: 5px 0;
+font-size:.75em;
+}
+
+#aboutAnchor{
+  margin-top:-200px;
+}
+
+#edgeAnchor{
+  margin-top:-40px;
+}
+
+.finSpacer{
+  height:20vh;
+ 
+}
+  
+  .serviceList{
+    margin-left:0px;
+    padding-left:0;
+    text-align:left;
+    font-size:1.09em;
+    padding-bottom:10px;
+    font-weight:lighter;
+  }
+
